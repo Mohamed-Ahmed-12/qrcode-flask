@@ -42,17 +42,17 @@ Ensure you have the following installed on your system:
     The app will be available at http://127.0.0.1:8000.
 
 Project Structure
-  qrcode_generator/
-  ├── Project/
-  │   ├── __init__.py         # Flask app initialization
-  │   ├── views.py            # Blueprint for QR code generation
-  │   ├── templates/
-  │   │   └── scan.html       # HTML template for user interface
-  │   └── static/             # (Optional) Static files like CSS/JS
-  ├── README.md               # Project documentation
-  └── myvenv/                 # Virtual environment (not included in the repo)
+qrcode_generator/
+├── Project/
+│   ├── __init__.py         # Flask app initialization
+│   ├── views.py            # Blueprint for QR code generation
+│   ├── templates/
+│   │   └── scan.html       # HTML template for user interface
+│   └── static/             # (Optional) Static files like CSS/JS
+├── README.md               # Project documentation
+└── myvenv/                 # Virtual environment (not included in the repo)
 
-Usage
+Usage:
     Start the application using the instructions above.
     Navigate to http://127.0.0.1:8000/api/qrcode.
     Enter the URL or text you want to convert into a QR code.
