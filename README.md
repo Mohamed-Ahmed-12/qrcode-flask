@@ -27,21 +27,23 @@ Ensure you have the following installed on your system:
    ```bash
    git clone https://github.com/Mohamed-Ahmed-12/qrcode-flask.git
    cd qrcode-flask
-2. **Set Up a Virtual Environment**:
-   ```bash
-    python -m venv myvenv
-   source myvenv/bin/activate # On Windows: myvenv\Scripts\activate
+Set Up a Virtual Environment:
 
-3. **Install Dependencies**:
-   ```bash
-   pip install flask qrcode pillow
+python -m venv myvenv
+source myvenv/bin/activate  # On Windows: myvenv\Scripts\activate
 
-4. **Run the Application**:
-   ```bash
+Install Dependencies:
+
+pip install flask qrcode pillow
+
+Run the Application:
+
     python -m flask --app Project run --port 8000 --debug
+
     The app will be available at http://127.0.0.1:8000.
 
 Project Structure
+
 qrcode_generator/
 ├── Project/
 │   ├── __init__.py         # Flask app initialization
@@ -52,24 +54,26 @@ qrcode_generator/
 ├── README.md               # Project documentation
 └── myvenv/                 # Virtual environment (not included in the repo)
 
-Usage:
+Usage
+
     Start the application using the instructions above.
     Navigate to http://127.0.0.1:8000/api/qrcode.
     Enter the URL or text you want to convert into a QR code.
     Submit the form to generate and view the QR code.
 
 Examples
-    Input:
-    
-    A user inputs the following link in the form:
-    
-    https://www.example.com
-    
-    Output:
-    
-    A QR code is displayed that links to the URL.
+Input:
+
+A user inputs the following link in the form:
+
+https://www.example.com
+
+Output:
+
+A QR code is displayed that links to the URL.
 Contributing
-   Contributions are welcome! To contribute:
+
+Contributions are welcome! To contribute:
 
     Fork the repository.
     Create a new branch for your feature or bugfix.
