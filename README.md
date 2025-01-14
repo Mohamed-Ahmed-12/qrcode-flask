@@ -78,5 +78,7 @@ Contributing
     Create a new branch for your feature or bugfix.
     Commit your changes and create a pull request.
 ## Demo
-![Screenshot 2025-01-14 at 17-44-04 Qr Code](https://github.com/user-attachments/assets/6bce495b-674e-4cdd-89f3-1a926c375f33)
-![qrcode(1)](https://github.com/user-attachments/assets/b7dc278c-5e50-4df3-8710-dd75da9bee0f)
+From Web
+   ![Screenshot 2025-01-14 at 17-44-04 Qr Code](https://github.com/user-attachments/assets/6bce495b-674e-4cdd-89f3-1a926c375f33)
+Downloaded Qrcode
+   ![qrcode(1)](https://github.com/user-attachments/assets/b7dc278c-5e50-4df3-8710-dd75da9bee0f)
