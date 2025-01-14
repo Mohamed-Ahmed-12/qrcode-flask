@@ -41,7 +41,7 @@ Ensure you have the following installed on your system:
     python -m flask --app Project run --port 8000 --debug
     The app will be available at http://127.0.0.1:8000.
 
-5. **Project Structure**
+Project Structure
   qrcode_generator/
   ├── Project/
   │   ├── __init__.py         # Flask app initialization
@@ -52,13 +52,13 @@ Ensure you have the following installed on your system:
   ├── README.md               # Project documentation
   └── myvenv/                 # Virtual environment (not included in the repo)
 
-6. **Usage**
+Usage
     Start the application using the instructions above.
     Navigate to http://127.0.0.1:8000/api/qrcode.
     Enter the URL or text you want to convert into a QR code.
     Submit the form to generate and view the QR code.
 
-7. **Examples**
+Examples
     Input:
     
     A user inputs the following link in the form:
@@ -68,9 +68,8 @@ Ensure you have the following installed on your system:
     Output:
     
     A QR code is displayed that links to the URL.
-8. Contributing
-
-Contributions are welcome! To contribute:
+Contributing
+   Contributions are welcome! To contribute:
 
     Fork the repository.
     Create a new branch for your feature or bugfix.
