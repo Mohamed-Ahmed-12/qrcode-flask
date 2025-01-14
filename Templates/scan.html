@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="col-12 col-sm-6 col-md-4 w-lg-50">
+<h1 class="text-center text-primary mb-4">Welecome to Qr code Generation Using Flask</h1>
+<div class='d-flex flex-column bg-light shadow  w-lg-100 w-auto'>
+    <div class="p-3">
+        <div class="d-flex flex-column align-items-center">
+            {% if img_base64 %}
+            <img src="data:image/png;base64,{{ img_base64 }}" alt="QR Code" class="qr-code" width="250px" height='250px'>
+            <a href="data:image/png;base64,{{ img_base64 }}" download='qrcode.png' >Download Qrcode</a>
+            {% endif %}
+        </div>
+
+        <form id="qrForm" method="POST" action='/api/qrcode'>
+            <div class="mb-3">
+                <label for="link" class="form-label">Link</label>
+                <input type="url" class="form-control" id="link" name="link" required placeholder='https://example.com'>
+            </div>
+            <button type="submit" class="btn btn-primary my-3">Generate</button>
+        </form>
+    </div>
+</div>
+</div>
+{% endblock %}
